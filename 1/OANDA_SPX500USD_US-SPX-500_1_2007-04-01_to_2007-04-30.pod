@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "SPX500_USD",
+  "granularity": "M1",
+  "chunk_start": "2007-04-01",
+  "chunk_end": "2007-04-30",
+  "parquet_file": "OANDA_SPX500USD_US-SPX-500_1_2007-04-01_to_2007-04-30.parquet",
+  "data_file": "OANDA_SPX500USD_US-SPX-500_1_2007-04-01_to_2007-04-30.parquet",
+  "row_count": 17870,
+  "first_candle": {
+    "time": 1175464800,
+    "Time": "2007-04-01T22:00:00.000000000Z",
+    "open": 1423.4,
+    "high": 1423.6,
+    "low": 1422.9,
+    "close": 1423.4,
+    "volume": 14
+  },
+  "last_candle": {
+    "time": 1177977540,
+    "Time": "2007-04-30T23:59:00.000000000Z",
+    "open": 1483.7,
+    "high": 1483.7,
+    "low": 1483.7,
+    "close": 1483.7,
+    "volume": 1
+  },
+  "csv_file": "OANDA_SPX500USD_US-SPX-500_1_2007-04-01_to_2007-04-30.parquet",
+  "csv_row_count": 17870,
+  "csv_first_candle": {
+    "time": 1175464800,
+    "Time": "2007-04-01T22:00:00.000000000Z",
+    "open": 1423.4,
+    "high": 1423.6,
+    "low": 1422.9,
+    "close": 1423.4,
+    "volume": 14
+  },
+  "csv_last_candle": {
+    "time": 1177977540,
+    "Time": "2007-04-30T23:59:00.000000000Z",
+    "open": 1483.7,
+    "high": 1483.7,
+    "low": 1483.7,
+    "close": 1483.7,
+    "volume": 1
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T01:36:54.000000000Z",
+  "generated_at": "2026-10-16T01:36:54.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2480,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2007-03-29T08:29:00Z",
+        "to": "2007-04-01T19:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-04-01T19:49:00Z",
+        "to": "2007-04-05T07:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-04-05T07:09:00Z",
+        "to": "2007-04-08T18:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-04-08T18:29:00Z",
+        "to": "2007-04-12T05:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-04-12T05:49:00Z",
+        "to": "2007-04-15T17:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-04-15T17:09:00Z",
+        "to": "2007-04-19T04:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-04-19T04:29:00Z",
+        "to": "2007-04-22T15:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-04-22T15:49:00Z",
+        "to": "2007-04-26T03:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-04-26T03:09:00Z",
+        "to": "2007-04-29T14:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-04-29T14:29:00Z",
+        "to": "2007-05-03T01:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
